@@ -1,0 +1,19 @@
+using System;
+
+namespace Operaciones_matemáticas
+{
+    class Program
+    {
+           static void ÁreaDeCuadrado()
+        {
+            #region Área del cuadrado
+            double l, A;
+            Console.WriteLine("Vamos a calcular el área de un cuadrado.");
+            Console.WriteLine("Favor indicar la longitud de uno de sus lados: ");
+            l = Convert.ToDouble(Console.ReadLine());
+            A = Math.Pow(l, 2);
+            Console.WriteLine("El área de este cuadrado es: {0}", A);
+            #endregion
+        }
+    }
+}    
